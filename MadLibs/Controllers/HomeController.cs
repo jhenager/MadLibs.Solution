@@ -6,7 +6,7 @@ namespace MadLibs.Controllers
   public class HomeController : Controller
   {
 
-    [Route("/form")]
+    [Route("/")]
     public ActionResult Form() { return View(); }
 
     [Route("/result")]
